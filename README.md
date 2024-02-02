@@ -5,7 +5,7 @@ The `File Processor` App is a simple desktop application built with Python and T
 
 File Selection: Users can easily browse and select one or more CSV files using the "Browse" button.
 
-CSV Processing: The application reads and processes the selected CSV files using the pandas library, providing a summary of each file's contents.
+CSV Processing: The application reads and processes the selected CSV files using the pandas library, summarizing each file's contents.
 
 PDF Report Generation: A PDF report is generated using the ReportLab library, containing a summary of each processed CSV file. The report includes a table of contents with links to each file's section.
 
@@ -15,14 +15,15 @@ Getting Started
 Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/file-processor-app.git
+https://github.com/JoelEmmanuelCloud/report_generator.git
+
 cd file-processor
 ````
 
 ## Install Dependencies:
 
 ```bash
-pip install pandas reportlab
+pip install pandas report lab
 ```
 
 ## Run the Application:
@@ -33,15 +34,15 @@ python file_processor_app.py
 
 ## Usage:
 
-* Click the "Browse" button to select one or more CSV files.
-* Click the "Process Files" button to start processing the selected files.
+* Select one or more CSV files by clicking the "Browse" button.
+* Click the "Process Files" button to process the selected files.
 * The processing results and a link to the generated PDF report will be displayed.
 
 ## Dependencies
 
 * Tkinter: Python's standard GUI (Graphical User Interface) package.
-* pandas: A data manipulation library for Python, used for reading and processing CSV files.
-* ReportLab: A PDF generation library for Python, used for creating the processing report.
+* pandas: A data manipulation library for Python used for reading and processing CSV files.
+* ReportLab: A PDF generation library for Python used for creating the processing report.
 
 ## License
 This project is licensed under the MIT License.
